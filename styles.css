@@ -1,12 +1,17 @@
 body {
   /* المطلوب الأول هنا */
   text-align: center;
+  background-image: url('./img/kuwaitcodes.png');
 }
 .card {
   /* المطلوب الثاني هنا */
+  border-radius: 16px;
   width: 400px;
   height: 500px;
   background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 15px 15px 5px rgba(255, 255, 255, 0.658);
 }
 
 img {
@@ -14,7 +19,10 @@ img {
   width: 120px;
   height: 120px;
   margin-top: 20px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 5px rgba(150, 143, 143, 0.274);
 }
+
 
 .center {
   margin: auto;
